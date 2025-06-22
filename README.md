@@ -42,13 +42,13 @@
 
 Dishcovery comes packed with features to enhance your cooking experience:
 
-* 🍳 **Ingredient-Based Suggestions:** Input the ingredients you have on hand and get personalized recipe suggestions tailored to your pantry.
+- 🍳 **Ingredient-Based Suggestions:** Input the ingredients you have on hand and get personalized recipe suggestions tailored to your pantry.
 
-* 🍝 **Leftover Magic:** Transform your leftovers into exciting new meals, helping you reduce food waste and get the most out of every ingredient.
+- 🍝 **Leftover Magic:** Transform your leftovers into exciting new meals, helping you reduce food waste and get the most out of every ingredient.
 
-* 🌍 **Global Cuisine Explorer:** Discover dishes from around the world with our unique "surprise me" feature, expanding your culinary horizons.
+- 🌍 **Global Cuisine Explorer:** Discover dishes from around the world with our unique "surprise me" feature, expanding your culinary horizons.
 
-* ❤️ **Save Favorites:** Easily rate and save your most loved recipes for quick access whenever you want to recreate a delicious meal.
+- ❤️ **Save Favorites:** Easily rate and save your most loved recipes for quick access whenever you want to recreate a delicious meal.
 
 ---
 
@@ -56,12 +56,11 @@ Dishcovery comes packed with features to enhance your cooking experience:
 
 Dishcovery leverages a modern and efficient technology stack to deliver a seamless user experience:
 
-| Layer        | Technology                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)         |
-| **State Mgmt** | ![Context API](https://img.shields.io/badge/Context_API-0288D1?style=for-the-badge&logo=react&logoColor=white)                                                                                                                                                 |
-| **AI Backend** | ![Google Gemini API](https://img.shields.io/badge/Google_Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white) (v1beta - gemini-2.0-flash)                                                                                                    |
-| **Other** | *(Add other relevant frontend libraries or tools you use, e.g., for form handling, UI components)* |
+| Layer          | Technology                                                                                                                                                                                                                 |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**   | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white) |
+| **State Mgmt** | ![Context API](https://img.shields.io/badge/Context_API-0288D1?style=for-the-badge&logo=react&logoColor=white)                                                                                                             |
+| **AI Backend** | ![Google Gemini API](https://img.shields.io/badge/Google_Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white) (v1beta - gemini-2.0-flash)                                                                    |
 
 ---
 
@@ -70,12 +69,16 @@ Dishcovery leverages a modern and efficient technology stack to deliver a seamle
 To provide a visual overview of Dishcovery's interface and functionality, please add screenshots or GIFs here.
 
 Example:
+
 ```markdown
-![Dishcovery Home Page](./images/dishcovery-home.png)
-![Ingredient Input and Suggestions](./images/ingredient-input.gif)
-![Saved Recipes View](./images/saved-recipes.png)
+![Dishcovery Home Page](./images/img1.png)
+![Ingredient Input and Suggestions](./images/img2.png)
+![Saved Recipes View](./images/img3.png)
+![Saved Recipes View](./images/img4.png)
+![Saved Recipes View](./images/img5.png)
 ```
-*Replace the placeholder image paths with actual paths to your screenshots or GIFs.*
+
+_Replace the placeholder image paths with actual paths to your screenshots or GIFs._
 
 ---
 
@@ -84,12 +87,14 @@ Example:
 To get Dishcovery up and running on your local machine, follow these steps:
 
 1.  **Clone the repository:**
+
     ```bash
     git clone [https://github.com/Devnaam/Dishcovery-Ai.git](https://github.com/Devnaam/Dishcovery-Ai.git)
     cd Dishcovery-Ai
     ```
 
 2.  **Install dependencies:**
+
     ```bash
     npm install
     # or
@@ -98,9 +103,11 @@ To get Dishcovery up and running on your local machine, follow these steps:
 
 3.  **Set up environment variables:**
     Create a `.env` file in the root directory and add your Google Gemini API key:
+
     ```
     VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
     ```
+
     You can get your Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
 4.  **Start the development server:**
@@ -117,9 +124,9 @@ To get Dishcovery up and running on your local machine, follow these steps:
 
 Dishcovery extensively utilizes the **Google Gemini API (v1beta - `gemini-2.0-flash`)** to power its intelligent recipe suggestions. The Gemini API is central to:
 
-* **Ingredient-Based Recipe Generation:** Dynamically creating recipe suggestions based on user-provided ingredients.
-* **Leftover Transformation:** Generating creative ideas for transforming leftover ingredients into new meals.
-* **Global Cuisine Discovery:** Powering the "surprise me" feature to suggest diverse dishes from around the world.
+- **Ingredient-Based Recipe Generation:** Dynamically creating recipe suggestions based on user-provided ingredients.
+- **Leftover Transformation:** Generating creative ideas for transforming leftover ingredients into new meals.
+- **Global Cuisine Discovery:** Powering the "surprise me" feature to suggest diverse dishes from around the world.
 
 The Gemini API ensures that Dishcovery provides smart, contextual, and inspiring recipe ideas tailored to your needs.
 
@@ -129,15 +136,15 @@ The Gemini API ensures that Dishcovery provides smart, contextual, and inspiring
 
 Feel free to connect with me!
 
-* **Name:** Devnaam Priyadershi
-* **GitHub:** [Devnaam](https://github.com/Devnaam)
-* **LinkedIn:** [Raj Priyadershi](https://www.linkedin.com/in/raj-priyadershi-56a256282/)
-* **Personal Portfolio:** [devnaam4s.vercel.app](https://devnaam4s.vercel.app/)
+- **Name:** Devnaam Priyadershi
+- **GitHub:** [Devnaam](https://github.com/Devnaam)
+- **LinkedIn:** [Raj Priyadershi](https://www.linkedin.com/in/raj-priyadershi-56a256282/)
+- **Personal Portfolio:** [devnaam4s.vercel.app](https://devnaam4s.vercel.app/)
 
 ---
 
 ## 📄 License
 
-*(Optional: Add your license information here, e.g., MIT License)*
+_it free u can download and edit it_
 
 ---
