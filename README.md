@@ -66,17 +66,13 @@ Dishcovery leverages a modern and efficient technology stack to deliver a seamle
 
 ## 📸 Screenshots or GIFs
 
-To provide a visual overview of Dishcovery's interface and functionality, please add screenshots or GIFs here.
-
-Example:
-
-```markdown
 ![Dishcovery Home Page](./images/img1.png)
 ![Ingredient Input and Suggestions](./images/img2.png)
 ![Saved Recipes View](./images/img3.png)
 ![Saved Recipes View](./images/img4.png)
 ![Saved Recipes View](./images/img5.png)
-```
+
+
 
 _Replace the placeholder image paths with actual paths to your screenshots or GIFs._
 
